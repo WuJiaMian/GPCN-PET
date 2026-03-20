@@ -22,7 +22,7 @@ import time
 def main(json_path=''):
     import os
     parser = argparse.ArgumentParser()
-    parser.add_argument('--opt', type=str, default='train_wdpcnet_CCnpi_G1D30.json', help='Path to option JSON file.')
+    parser.add_argument('--opt', type=str, default='train_gpcn_CCnpi_G1D30.json', help='Path to option JSON file.')
     parser.add_argument('--launcher', default='pytorch', help='job launcher')
     parser.add_argument('--local_rank', type=int, default=0)
     os.environ['TORCH_HOME'] = 'path'
